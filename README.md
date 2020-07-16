@@ -1,6 +1,9 @@
 # Project 4a
 [Deployed to surge](http://eru-project4a.surge.sh/)
 
+# Demo:
+![demo](project4_demo.gif)
+
 # Sprites used: 
 [Original Spritesheet ](https://www.pngfind.com/mpng/iTxJwo_sonic-3-sprite-png-sonic-3-sprites-png/)
 
