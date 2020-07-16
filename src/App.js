@@ -1,5 +1,7 @@
 import React, { useRef, useState } from 'react';
 import useWebAnimations from "@wellyshen/use-web-animations";
+import Bird from './Bird'
+
 import sonic from './images/slow.png'
 import latest from './images/latest.png'
 import idle from './images/idle.png'
@@ -15,6 +17,16 @@ const containerStyle = {
   cursor: 'pointer'
 }
 
+const birdContainerStyle = {
+  position: 'absolute',
+  top: '-20px',
+  left: '50px',
+  width: '170px',
+  height: '200px',
+  overflow: 'hidden',
+  cursor: 'pointer',
+}
+
 const App = () => {
   const [currentImg, setCurrentImg] = useState(idle)
   const containerRef = useRef();
@@ -22,6 +34,18 @@ const App = () => {
   const containerObj = useWebAnimations({
     ref: containerRef,
     autoPlay: false,
+    keyframes: {
+      transform: ["translateX(100vw)"],
+    },
+    timing: {
+      delay: 0,
+      duration: 5000,
+      iterations: Infinity,
+      direction: "normal",
+    }
+  })
+
+  const birdContainerObj = useWebAnimations({
     keyframes: {
       transform: ["translateX(100vw)"],
     },
@@ -140,7 +164,12 @@ const App = () => {
       <div ref={containerRef} style={containerStyle}>
         <img ref={sonicObj.ref} src={currentImg} alt="" />
       </div>
-      <button style={{ position: 'absolute', left: '50%', top: '100px' }} onClick={speedUp}>Speed Up</button>
+      <button style={{ transform:'scale(2)',position: 'absolute', left: '50%', top: '100px' }} onClick={speedUp}>Sonic Speed Up</button>
+
+      <div ref={birdContainerObj.ref} style={birdContainerStyle}>
+        <Bird />
+      </div>
+
     </div>
   );
 }
