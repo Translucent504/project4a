@@ -11,7 +11,7 @@
 ![](src/images/idle.png)
 ![](src/images/slow.png)
 ![](src/images/latest.png)
-
+![](src/images/birds1.png)
 # Implementation details:
 
 The original animation which this is based on is the [Alice & red queen example.](https://codepen.io/rachelnabors/pen/PNGGaV). An easier way would be to use pre-animated gifs
