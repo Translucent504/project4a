@@ -2,7 +2,7 @@
 [Deployed to surge](http://eru-project4a.surge.sh/)
 
 # Combined the sonic and the red queen animation into one.
-# Demo:
+# OLD Demo (NO LONGER LIKE THIS):
 ![demo](project4_demo.gif)
 
 # Sprites used: 
