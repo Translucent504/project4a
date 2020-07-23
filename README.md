@@ -1,7 +1,7 @@
 # Project 4a
 [Deployed to surge](http://eru-project4a.surge.sh/)
 
-# Converted the sonic animation to the stupid red queen animation in react..., the code for the below shown gif is still in the repo.
+# Combined the sonic and the red queen animation into one.
 # Demo:
 ![demo](project4_demo.gif)
 
