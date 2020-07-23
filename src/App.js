@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react';
 import useWebAnimations from "@wellyshen/use-web-animations";
 import Bird from './Bird'
-
 import sonic from './images/slow.png'
 import latest from './images/latest.png'
 import idle from './images/idle.png'
@@ -169,7 +168,6 @@ const App = () => {
       <div ref={birdContainerObj.ref} style={birdContainerStyle}>
         <Bird />
       </div>
-
     </div>
   );
 }
