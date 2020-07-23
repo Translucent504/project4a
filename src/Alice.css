@@ -2,7 +2,15 @@
     user-select: none;
 }
 
-img {
+#red-queen_and_alice_sprite,
+#palm3,
+#bush,
+#w_rook_upright,
+#r_pawn_upright,
+#w_rook,#palm1,
+#r_pawn,
+#r_knight,
+#palm2 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -121,7 +129,7 @@ body {
     height: 100%;
 }
 
-.wrapper,#root {
+.wrapper,#root,.Home {
     width: 100%;
     height: 100%;
     overflow: hidden;

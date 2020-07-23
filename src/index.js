@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Alice from './Alice'
+import App from './App'
 ReactDOM.render(
   <React.StrictMode>
-    <Alice />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
